@@ -1,57 +1,73 @@
 # 通过例子学 Rust
 
-[![Build Status][travis-image]][travis-link]  
-> Chinese translation of the [Rust By Example][rust-by-example]
->
-> 本文档按照 [**Rust 文档翻译指引**](https://github.com/rust-lang-cn/rust-translation-guide)规范进行翻译。  
-> 首次于 2016-08-07 翻译完全部内容，欢迎纠正——最后更新时间 2019.5.3  
-> 近段时间将跟随英文版进行升级调整，欢迎大家踊跃参与，共同更新内容 —— 2019.4.20  
+> **_声明_**
+> 
+> `《通过例子学 Rust》`由 [Rust 中文资源组](https://github.com/rust-lang-cn) 翻译，源码仓库在 [GitHub](https://github.com/budshome/rust-by-example-zh)，翻译自 `Rust` 官方资源 [*Rust By Example*](https://github.com/rust-lang/rust-by-example)。
+> 
+> 感谢 `Rust 中文资源组` 和 `Rust 团队`的无私奉献。
+> 
+> **本站点仅为方便学习和查阅等相关用途，书籍和译本的所有内容和相关权利属于书籍编写者和翻译者。**
+> 
+> 若有任何不当，请联系 `linshi@budshome.com` 删除。
+> 
+> 💥 **更新时间：2019-09-21**
 
-通过例子学 Rust，Rust By Example 中文版（包含在线代码编辑器）。
+[Rust][rust] 是一门注重安全（safety）、速度（speed）和并发（concurrency）的现代系统编程语言。Rust 通过内存安全来实现以上目标，但不用垃圾回收机制（garbage collection, GC)。
 
-## 使用说明
+《通过例子学 Rust》（Rust By Example, RBE）内容由一系列可运行的实例组成，通过这些例子阐明了各种 Rust 的概念和基本库。想获取这些例子外的更多内容，不要忘了[安装 Rust 到本地][install]并查阅[官方标准库文档][std]。另外为了满足您的好奇心，你可以[查阅本网站的源代码][home]。
 
-如果想阅读《通过例子学 Rust》，可以直接访问 [https://rustwiki.org/zh-CN/rust-by-example/][website-cn] 进行在线上阅读。（英文阅读地址：[https://doc.rust-lang.org/rust-by-example/][website]）
+现在让我们开始学习吧！
 
-若想在本地阅读，请先[安装 Rust][install Rust]，然后进行下面操作：
+- [Hello World](hello.html) - 从经典的 “Hello World” 程序开始学习。
 
-```bash
-$ git clone https://github.com/rust-lang-cn/rust-by-example-cn
-$ cd rust-by-example-cn
-$ cargo install mdbook --version 0.2 --force
-$ mdbook build
-$ mdbook serve
-```
+- [原生类型](primitives.html) - 学习有符号整型，无符号整型和其他原生类型。
 
+- [自定义类型](custom_types.html) - 结构体 `struct` 和 枚举 `enum`。
 
-## 如何贡献
+- [变量绑定](variable_bindings.html) - 变量绑定，作用域，变量遮蔽。
 
-请查看 [CONTRIBUTING.md][how-to-contribute] 文件了解详细内容。
+- [类型系统](types.html) - 学习改变和定义类型。
 
+- [类型转换](conversion.html)
 
-## 其他语言版本
+- [表达式](expression.html)
 
-* [English](https://github.com/rust-lang/rust-by-example)
-* [French](https://github.com/Songbird0/FR_RBE)
-* [Japanese](https://github.com/rust-lang-ja/rust-by-example-ja)
+- [流程控制](flow_control.html) - `if`/`else`，`for`，以及其他流程控制有关内容。
 
-## 授权协议
+- [函数](fn.html) - 学习方法、闭包和高阶函数。
 
-《通过例子学 Rust》（中文版与英文版 Rust By Example 均） 使用以下两种协议的任一种进行授权：
+- [模块](mod.html) - 使用模块来组织代码。
 
-* Apache 2.0 授权协议，（[LICENSE-APACHE](LICENSE-APACHE) 或 http://www.apache.org/licenses/LICENSE-2.0）
-* MIT 授权协议 ([LICENSE-MIT](LICENSE-MIT) 或 http://opensource.org/licenses/MIT)
+- [`crate`](crates.html) - crate 是 Rust 中的编译单元。学习创建一个库。
 
-可以根据自己选择来定。
+- [cargo](cargo.html) - 学习官方的 Rust 包管理工具的一些基本功能。
 
-除非您有另外说明，否则您在本仓库提交的任何贡献均按上述方式进行双重许可授权，就如 Apache 2.0 协议所规定那样，而无需附加任何其他条款或条件。
+- [属性](attribute.html) - 属性是应用于某些模块、crate 或项的元数据（metadata）。
 
+- [泛型](generics.html) - 学习编写能够适用于多类型参数的函数或数据类型。
 
+- [作用域规则](scope.html) - 作用域在所有权（ownership）、借用（borrowing）和生命周期（lifetime）中起着重要作用。
 
-[install Rust]: https://www.rust-lang.org/tools/install
-[rust-by-example]: https://github.com/rust-lang/rust-by-example
-[travis-image]: https://travis-ci.org/rust-lang-cn/rust-by-example-cn.svg?branch=master
-[travis-link]: https://travis-ci.org/rust-lang-cn/rust-by-example-cn
+- [特性 trait](trait.html) - trait 是对未知类型(`Self`)定义的方法集。
+
+- [宏](macros.html)
+
+- [错误处理](error.html) - 学习 Rust 语言处理失败的方式。
+
+- [标准库类型](std.html) - 学习 `std` 标准库提供的一些自定义类型。
+
+- [标准库更多介绍](std_misc.html) - 更多关于文件处理、线程的自定义类型。
+
+- [测试](testing.html) - Rust 语言的各种测试手段。
+
+- [不安全操作](unsafe.html)
+
+- [兼容性](compatibility.html)
+
+- [补充](meta.html) - 文档和基准测试
+
 [website]: https://doc.rust-lang.org/rust-by-example/
-[website-cn]: https://rustwiki.org/zh-CN/rust-by-example/
-[how-to-contribute]: CONTRIBUTING.md
+[rust]: http://www.rust-lang.org/
+[install]: https://www.rust-lang.org/tools/install
+[std]: http://doc.rust-lang.org/std/
+[home]: https://github.com/rust-lang-cn/rust-by-example-cn

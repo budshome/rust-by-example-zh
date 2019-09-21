@@ -1,7 +1,6 @@
 # Summary
 
-[简介](index.md)
-
+- [简介](README.md)
 - [Hello World](hello.md)
     - [注释](hello/comment.md)
     - [格式化输出](hello/print.md)

@@ -2,7 +2,7 @@
 
 > **_声明_**
 > 
-> `《通过例子学 Rust》`由 [Rust 中文资源组](https://github.com/rust-lang-cn) 翻译，源码仓库在 [GitHub](https://github.com/budshome/rust-by-example-zh)，翻译自 `Rust` 官方资源 [*Rust By Example*](https://github.com/rust-lang/rust-by-example)。
+> `《通过例子学 Rust》`由 [Rust 中文资源组](https://github.com/rust-lang-cn) 翻译，源码仓库在 [GitHub][home]，翻译自 `Rust` 官方资源 [*Rust By Example*][website]。
 > 
 > 感谢 `Rust 中文资源组` 和 `Rust 团队`的无私奉献。
 > 
@@ -10,11 +10,11 @@
 > 
 > 若有任何不当，请联系 `linshi@budshome.com` 删除。
 > 
-> 💥 **更新时间：2019-09-21**
+> 💥 **更新时间：2019-12-02**
 
 [Rust][rust] 是一门注重安全（safety）、速度（speed）和并发（concurrency）的现代系统编程语言。Rust 通过内存安全来实现以上目标，但不用垃圾回收机制（garbage collection, GC)。
 
-《通过例子学 Rust》（Rust By Example, RBE）内容由一系列可运行的实例组成，通过这些例子阐明了各种 Rust 的概念和基本库。想获取这些例子外的更多内容，不要忘了[安装 Rust 到本地][install]并查阅[官方标准库文档][std]。另外为了满足您的好奇心，你可以[查阅本网站的源代码][home]。
+《通过例子学 Rust》（Rust By Example, RBE）内容由一系列可运行的实例组成，通过这些例子阐明了各种 Rust 的概念和基本库。想获取这些例子外的更多内容，不要忘了[安装 Rust 到本地][install]并查阅[官方标准库文档][std]。
 
 现在让我们开始学习吧！
 
@@ -66,8 +66,8 @@
 
 - [补充](meta.html) - 文档和基准测试
 
-[website]: https://doc.rust-lang.org/rust-by-example/
+[website]: https://doc.rust-lang.org/rust-by-example
 [rust]: http://www.rust-lang.org/
 [install]: https://www.rust-lang.org/tools/install
 [std]: http://doc.rust-lang.org/std/
-[home]: https://github.com/rust-lang-cn/rust-by-example-cn
+[home]: https://github.com/budshome/rust-by-example-zh

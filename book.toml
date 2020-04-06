@@ -6,7 +6,6 @@ language = "zh"
 
 [output.html]
 theme = "theme"
-git-repository-url = "https://github.com/budshome/rust-by-example-zh"
 
 [output.html.playpen]
 editable = true

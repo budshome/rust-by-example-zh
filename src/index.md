@@ -10,7 +10,7 @@
 > 
 > 若有任何不当，请联系 `linshi@budshome.com` 删除。
 > 
-> 💥 **更新时间：2020-04-06**
+> 💥 **更新时间：2020-08-18**
 
 [Rust][rust] 是一门注重安全（safety）、速度（speed）和并发（concurrency）的现代系统编程语言。Rust 通过内存安全来实现以上目标，但不用垃圾回收机制（garbage collection, GC)。
 
@@ -70,4 +70,4 @@
 [rust]: http://www.rust-lang.org/
 [install]: https://www.rust-lang.org/tools/install
 [std]: http://doc.rust-lang.org/std/
-[home]: https://github.com/budshome/rust-by-example-zh
+[home]: https://github.com/budshome/rust-by-example-zh-cn

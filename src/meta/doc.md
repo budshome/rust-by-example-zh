@@ -24,7 +24,8 @@ impl Person {
     /// ```
     /// // 在文档注释中，你可以书写代码块
     /// // 如果向 Rustdoc 传递 --test 参数，它还会帮你测试注释文档中的代码！
-    /// let person = Person::new("name);
+    /// use doc::Person;
+    /// let person = Person::new("name");
     /// ```
     pub fn new(name: &str) -> Person {
         Person {
@@ -51,7 +52,7 @@ fn main() {
 
 ```bash
 $ rustc doc.rs --crate-type lib
-$ rustdoc --test --extern doc="libdoc.rs"
+$ rustdoc --test --extern doc="libdoc.rlib" doc.rs
 ```
 
 （当你对库 crate 上运行 `cargo test` 时，Cargo 将自动生成并运行正确的 `rustc`

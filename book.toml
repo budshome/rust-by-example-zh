@@ -6,6 +6,7 @@ language = "zh"
 
 [output.html]
 theme = "theme"
+git-repository-url = "https://github.com/zzy"
 
 [output.html.playpen]
 editable = true

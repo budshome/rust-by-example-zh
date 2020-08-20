@@ -4,7 +4,7 @@ description = "通过例子学 Rust, Rust By Example 中文版，RBE 中文版"
 author = "The Rust Community"
 language = "zh"
 src = "src"
-multilingual = false
+multilingual = true
 
 [output.html]
 theme = "theme"
